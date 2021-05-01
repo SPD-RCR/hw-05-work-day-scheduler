@@ -42,8 +42,9 @@ THEN the saved events persist
     - Column 1: 15% = (Non-editable) Numeric Hours with AM or PM w/ White background
     - Column 2: 70% = Editable Content area w/ dynamic changing background colors (Past = Grey, Present = Salmon, Future = Green)
     - Column 3: 15% = (Non-editable) Save lock icon w/ blue background
-- After user edits col 2 content onClick of the Save lock icon Save to Date, Hour, Content to Local Storage
+- After user edits col 2 Description cell, the onClick of the Lock icon Save the Date, Hour, Decription content to Local Storage
 - Display any related content for the appropriate hour from Local Storage
+  - Set the Description to use the correspnding background color in relation to the current time of day
 
 The following animation demonstrates the application functionality:
 
