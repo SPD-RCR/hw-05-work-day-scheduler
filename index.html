@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -26,11 +26,58 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <p class="lead" id="currentDay"></p>
     </header>
-    <div class="container">
-      <!-- Timeblocks go here -->
-    </div>
+
+    <main class="container">
+        <!-- Timeblocks go here -->
+        <div class="row justify-content-center" id="r9">
+          <div class="time-block col-2" id="h9"><p class="hour">9AM</p></div>
+          <div class="description col-6" id="d9">Enter description</div>
+          <div class="saveBtn col-2" id="s9"><i class="fas fa-lock"></i></div>
+        </div>
+        <div class="row justify-content-center" id="r10">
+          <div class="time-block col-2" id="h10"><p class="hour">10AM</p></div>
+          <div class="past col-6" id="d10">Enter description</div>
+          <div class="saveBtn col-2" id="s10"><i class="fas fa-lock"></i></div>
+        </div>
+        <div class="row justify-content-center" id="r11">
+          <div class="time-block col-2" id="h11"><p class="hour">11AM</p></div>
+          <div class="past col-6" id="d11">Enter description</div>
+          <div class="saveBtn col-2" id="s11"><i class="fas fa-lock"></i></div>
+        </div>
+        <div class="row justify-content-center" id="r12">
+          <div class="time-block col-2" id="h12"><p class="hour">12PM</p></div>
+          <div class="present col-6" id="d12">Enter description</div>
+          <div class="saveBtn col-2" id="s12"><i class="fas fa-lock"></i></div>
+        </div>
+        <div class="row justify-content-center" id="r13">
+          <div class="time-block col-2" id="h13"><p class="hour">1PM</p></div>
+          <div class="future col-6" id="d13">Enter description</div>
+          <div class="saveBtn col-2" id="s13"><i class="fas fa-lock"></i></div>
+        </div>
+        <div class="row justify-content-center" id="r14">
+          <div class="time-block col-2" id="h14"><p class="hour">2PM</p></div>
+          <div class="future col-6" id="d14">Enter description</div>
+          <div class="saveBtn col-2" id="s14"><i class="fas fa-lock"></i></div>
+        </div>
+        <div class="row justify-content-center" id="r15">
+          <div class="time-block col-2" id="h15"><p class="hour">3PM</p></div>
+          <div class="future col-6" id="d15">Enter description</div>
+          <div class="saveBtn col-2" id="s15"><i class="fas fa-lock"></i></div>
+        </div>
+        <div class="row justify-content-center" id="r16">
+          <div class="time-block col-2" id="h16"><p class="hour">4PM</p></div>
+          <div class="future col-6" id="d16">Enter description</div>
+          <div class="saveBtn col-2" id="s16"><i class="fas fa-lock"></i></div>
+        </div>
+        <div class="row justify-content-center" id="r17">
+          <div class="time-block col-2" id="h17"><p class="hour">5PM</p></div>
+          <div class="future col-6" id="d17">Enter description</div>
+          <div class="saveBtn col-2" id="s17"><i class="fas fa-lock"></i></div>
+        </div>
+
+    </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
